@@ -1,0 +1,189 @@
+
+.row {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.header {
+  color: white;
+}
+
+.top-row {
+  margin-top: 120px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+.data-cell {
+  width: 175px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+.header-text {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.center-text {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.section {
+  /*background-color: #B5D7D7;*/
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  height: 120px;
+}
+
+.section-padding {
+    margin-top: 25px;
+}
+
+.section-too {
+  /*background-color: #B5D7D7;*/
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+}
+
+.top-section {
+  margin-top: 25px;
+}
+
+.section-3 {
+  /*background-color:#B5D7D7;*/
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom:50px;
+  height:auto;
+  margin-top: 25px;
+}
+
+.container {
+    /*background-color: #D6EEEE;*/
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+.dropdown select {
+  background-color: gainsboro;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dropdown select:hover {
+  cursor: pointer;
+}
+
+
+.dd-data {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.likePct {
+  font-family: 'Roboto', sans-serif;
+}
+
+.comments {
+  font-family: 'Roboto', sans-serif;
+}
+
+#front {
+  background: rgb(75,251,5); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(75,251,5,1) 0%, rgba(71,198,16,1) 40%, rgba(44,149,3,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(75,251,5,1) 0%,rgba(71,198,16,1) 40%,rgba(44,149,3,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(75,251,5,1) 0%,rgba(71,198,16,1) 40%,rgba(44,149,3,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4bfb05', endColorstr='#2c9503',GradientType=0 );
+}
+
+#back {
+  background: rgb(251,66,5); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(251,66,5,1) 0%, rgba(198,58,16,1) 40%, rgba(149,40,3,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(251,66,5,1) 0%,rgba(198,58,16,1) 40%,rgba(149,40,3,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(251,66,5,1) 0%,rgba(198,58,16,1) 40%,rgba(149,40,3,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb4205', endColorstr='#952803',GradientType=0 ); /* IE6-9 */
+}
+
+@media (max-width: 767px) {
+  .table-wrap table,
+  .table-wrap thead,
+  .table-wrap tbody,
+  .table-wrap th,
+  .table-wrap td,
+  .table-wrap tr {
+    display: block;
+  }
+  .table-wrap thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .table-wrap td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%!important;
+    white-space: normal;
+    text-align: left;
+  }
+  .table-wrap td:before {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    width: 45%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+  .table-wrap td:first-child {
+    padding-top: 17px;
+  }
+  .table-wrap td:last-child {
+    padding-bottom: 16px;
+  }
+  .table-wrap td:first-child:before {
+    top: 17px;
+  }
+  .table-wrap td:before {
+    content: attr(data-title);
+  }
+  .table tbody tr {
+    border-top: 1px solid #ddd;
+  }
+  .table tbody tr td {
+    border: none;
+  }
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: gainsboro !important;
+}
+
+@media (min-width: 768px) {
+  .table thead tr th,
+  .table tbody tr td {
+    padding: 15px 20px;
+  }
+}
+
+.sub-title {
+  margin-top: 60px;
+}
+
+body {
+  background-color:black;
+}
