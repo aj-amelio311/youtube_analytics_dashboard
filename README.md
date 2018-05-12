@@ -3,43 +3,11 @@ Application that grabs data from youtube video I made and writes it to Mongo eve
 
 Modules Required:
 
-Node Automation Task:
+Node Automation Task: http, mongodb, axios, assert
 
-  http
+API: express, mongodb, assert, cors
   
-  mongodb
-  
-  axios
-  
-  assert
-  
-  
- API:
- 
-  express
-  
-  mongodb
-  
-  assert
-  
-  cors
-  
-  
- UI:
- 
-  axios
-  
-  babel-preset-stage-1
-  
-  chart.js
-  
-  react
-  
-  react-chartjs-2
-  
-  react-dom
-  
-  react-scripts
+UI: axios, babel-preset-stage-1, chart.js, react, react-chartjs-2, react-dom, react-scripts
   
   
 *requires a youtube API key as well
