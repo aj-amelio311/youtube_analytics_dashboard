@@ -1,9 +1,9 @@
 const express = require("express");
 const {MongoClient} = require("mongodb");
 const assert = require("assert");
-var cors = require("cors");
+const cors = require("cors");
 
-var port = 9000
+const port = 9000
 
 var app = express();
 
