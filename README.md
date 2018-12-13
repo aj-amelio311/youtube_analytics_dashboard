@@ -1,17 +1,15 @@
-# youtube_analytics_software
-Application that grabs data from youtube video I made and writes it to Mongo every 24 hours, and utilizes a node/express API to write the data to a React UI. 
+# YouTube Analytics Software
 
-Modules Required:
+Desktop application that acts as a Netflix for movies stored on your hard drive
 
-Node Automation Task: http, mongodb, axios, assert
+<img src="https://s3.us-east-2.amazonaws.com/aj-website-file-storage/images/screenshot.png" />
 
-API: express, mongodb, assert, cors
-  
-UI: axios, babel-preset-stage-1, chart.js, react, react-chartjs-2, react-dom, react-scripts
-  
-  
-*requires a youtube API key as well
+# Built With
 
-**data for demo starts in April 2018
+* NodeJS
+* Angular
+* MongoDB
 
-***a clear change in youtube's algorithm has radically impacted the data from June 2018 on
+# Try It
+
+<a href="http://youtube-analytics-aj.s3-website.us-east-2.amazonaws.com/" target="_blank">View Here</a>
