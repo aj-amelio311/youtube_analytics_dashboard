@@ -1,8 +1,10 @@
 # YouTube Analytics Software
 
-Desktop application that acts as a Netflix for movies stored on your hard drive
+Web Application that grabs data every 24 hours for a youtube video and displays data visualizations.
 
-<img src="https://s3.us-east-2.amazonaws.com/aj-website-file-storage/images/screenshot.png" />
+<img src="https://s3.us-east-2.amazonaws.com/aj-website-file-storage/images/yt-ss1.png" />
+
+<img src="https://s3.us-east-2.amazonaws.com/aj-website-file-storage/images/yt-ss2.png" />
 
 # Built With
 
