@@ -1,0 +1,9 @@
+<div class="col-md-2 section-too col-md-offset-1" @slide @fade>
+  <h6 class="header-text">New Comments</h6>
+  <span *ngIf="data; else handle">
+    <h4 class="comments">{{ data.comments }}</h4>
+  </span>
+  <ng-template #handle>
+    <h6 class="fallback">Data Not Available</h6>
+  </ng-template>
+</div>
