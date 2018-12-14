@@ -15,3 +15,5 @@ Web Application that grabs data every 24 hours for a youtube video and displays 
 # Try It
 
 <a href="http://youtube-analytics-aj.s3-website.us-east-2.amazonaws.com/" target="_blank">View Here</a>
+
+*Data begins in April 2018, and due to a Youtube algorithm shift, drastically changes in June 2018
