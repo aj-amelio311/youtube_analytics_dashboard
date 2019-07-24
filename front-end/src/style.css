@@ -1,0 +1,155 @@
+body {
+  background-color: black !important;
+  color: white !important;
+}
+
+h1, h2, h3, h4, h5, h6, td, p {
+    font-family: Electrolize,sans-serif;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: Electrolize,sans-serif;
+  color: white;
+}
+
+h4, h6, td {
+  color: white !important;
+  text-align: center;
+}
+
+@media screen and (min-width: 790px) {
+  td {
+    font-size: 14px;
+  }
+
+  .video {
+    width: 540px;
+    height: 318px;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  td {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .video {
+    margin-bottom: 20px;
+  }
+
+  .about-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.table th, .table td {
+  border-top: none !important;
+}
+
+.panel {
+  background-color: #36454f !important;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.table-title {
+  text-align: center;
+  color: white !important;
+  font-family: Electrolize,sans-serif;
+  padding-top: 10px;
+}
+
+.like-percent {
+  text-align: center;
+}
+
+.like-bar {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.year-select {
+  width: 121px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.month-select {
+  width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+
+.year-select{
+  background-color: #000;
+  color: #fff;
+  font-family: Electrolize,sans-serif;
+}
+
+.month-select select {
+  background-color: #000;
+  color: #fff;
+  font-family: Electrolize,sans-serif;
+}
+
+.month-select select:hover {
+  cursor: pointer;
+}
+
+.year-select:hover {
+  cursor: pointer;
+}
+
+.about {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-text {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.not-found {
+  margin-top: 20px;
+}
+
+.about-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.button {
+  color: white;
+}
+
+.button:hover {
+  color: #3173a4;
+  text-decoration-style: none;
+}
